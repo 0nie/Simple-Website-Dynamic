@@ -11,7 +11,8 @@ const Banner = () => {
                 <p className='text-gray-600 font-medium'>A simple one-page website built with React
                     React Icons, and smooth scrolling navigation.
                 </p>
-                <Button label="Get in Touch"/>
+                <Button label="Get in Touch" className="" type="banner" />
+
             </div>
         </div>
     </section> 

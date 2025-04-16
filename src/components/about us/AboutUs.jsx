@@ -6,11 +6,11 @@ const AboutUs = () => {
   return (
     <div>
       <section className="banner py-20">
-        <div className="container max-w-[1200px] mx-auto p-5">
+        <div className="container max-w-[1200px] mx-auto px-5">
             
-          <Headings label="About Us"/>
+          <Headings label="About Us" className="mb-5"/>
 
-          <div className="about-wrapper">
+          <div className="about-wrapper flex flex-col gap-5 lg:flex-row lg:gap-7">
             {aboutData.map((item, index) => {
               return (
                 <div className="about-card mb-5" key={index}>
